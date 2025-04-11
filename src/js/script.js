@@ -190,17 +190,17 @@
 //JOGO DE ADVINHAÇÃO
 
 //declarando uma variável indefinida
-// let palpite;
-// const sorteio = Math.floor(Math.random() * 10)+1;
+let palpite;
+const sorteio = Math.floor(Math.random() * 10)+1;
 
-// do{
-//     palpite = parseInt(prompt("Escolha um número entre 1 e 10"))
-// }while(palpite !== sorteio)
-//     if (palpite == sorteio){
-//     alert("Parabéns! Você ganhou o jogo!", palpite)
-//     }
+do{
+    palpite = parseInt(prompt("Escolha um número entre 1 e 10"))
+}while(palpite !== sorteio)
+    if (palpite == sorteio){
+    alert("Parabéns! Você ganhou o jogo!", palpite)
+    }
 
-//funções
+funções
 
 function saudacao(nome){
     console.log(`Seja bem-vindo ${nome}`)
