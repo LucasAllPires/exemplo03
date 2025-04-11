@@ -155,11 +155,38 @@
 
 //Ternário
 
-let valor=100;
-let resultado = valor ==100 ? "Valor certo": "Valor Errado";
-// ? = if e : = else
-console.log(resultado);
+// let valor=100;
+// let resultado = valor ==100 ? "Valor certo": "Valor Errado";
+// // ? = if e : = else
+// console.log(resultado);
 
-let media =  5;
-let nota = media >= 6 ? "Aprovado": "Reprovado"
-console.log(nota)
+// let media =  5;
+// let nota = media >= 6 ? "Aprovado": "Reprovado"
+// console.log(nota)
+
+//Estrutura de Repetição
+
+// for(let i=0;i<=10;i++){
+//     console.log("o valor de I é", i)
+// }
+
+//While
+
+// let f=0;
+
+// while(f <10){
+//     console.log("O valor de f é",f)
+//     f++;
+// }
+
+//do while
+
+// let w=0;
+// do{
+//     console.log("do while",w)
+//     w++
+// }while(w<=20)
+
+//JOGO DE ADVINHAÇÃO
+
+let palpite;
