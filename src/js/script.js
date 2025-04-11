@@ -102,3 +102,64 @@
 
 //CONDICIONAL 
 
+//if 
+
+// let exemplo=1
+// if(exemplo ==1){
+//     console.log("está correto")
+// }
+
+// //if/else
+
+// let nome = "fiap";
+// if(nome =="fiap"){
+//     console.log("Nome correto")
+//     // document.write("Nome certo")
+// }
+// else{
+//     console.log("Nome errado.")
+// }
+
+// //if encadeado ou aninhado
+
+// let idade = 51;
+// if(idade <= 14){
+//     console.log("Não pode entrar. É menor")
+// }
+// else if(idade > 14 && idade <= 18) {
+//     console.log("Pode entrar e curtir")
+// }
+// else if(idade > 18 && idade <= 50) {
+//     console.log("Perigo! Seus pais estão na balada.")
+// }
+// else{
+//     console.log("Você deve ficar no sofá assistindo Netflix.")
+// }
+
+// //switch case
+
+// let time ="Corinthians"
+// switch(time){
+//     case "Corinthians":
+//     console.log("Melhor time")
+//         break;
+//     case "São Paulo":
+//         console.log("É tão ruim que não ganha em casa")
+//         break;
+//     case "Palmeiras":
+//         console.log("Não tem mundial")
+//         break;
+//     default:
+//         console.log("Nenhuma opções válidas (Santos")
+// }
+
+//Ternário
+
+let valor=100;
+let resultado = valor ==100 ? "Valor certo": "Valor Errado";
+// ? = if e : = else
+console.log(resultado);
+
+let media =  5;
+let nota = media >= 6 ? "Aprovado": "Reprovado"
+console.log(nota)
